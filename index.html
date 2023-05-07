@@ -1,13 +1,35 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>swag</title>
+    <title>◥▶ ‿ ◀◤</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-image: url("https://cdn.discordapp.com/attachments/842145496197627955/1104774767871008919/background.jpg");
+        background-size: cover;
+        background-position: center;
+      }
+
+      #video-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      #video-container video {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+    </style>
   </head>
-  <body style="background: url(https://cdn.discordapp.com/attachments/842145496197627955/1104774767871008919/background.jpg) no-repeat center center fixed; 
-               -webkit-background-size: cover;
-               -moz-background-size: cover;
-               -o-background-size: cover;
-               background-size: cover;">
-    <video src="https://cdn.discordapp.com/attachments/842145496197627955/1104774767380267169/video.mp4" loop style="display: block; margin: 0 auto;"></video>
+  <body>
+    <div id="video-container">
+      <video controls>
+        <source src="https://cdn.discordapp.com/attachments/842145496197627955/1104774767380267169/video.mp4" type="video/mp4">
+      </video>
+    </div>
   </body>
 </html>
